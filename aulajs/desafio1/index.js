@@ -7,6 +7,6 @@ const imc = ` ${peso} / ${altura} * ${altura}`;
 
 if (imc >= 30) {
     console.log("Carlos você está acima do peso")
-} else {
+} else{
     console.log("Carlos, você não está acima do peso")
 }
