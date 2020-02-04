@@ -2,27 +2,48 @@
 // das notas entre os alunos e envia
 // mensagem do cálculo da média
 
+
+// Criando Array
+
+const alunos = [
+    {
+        nome: "Kaique",
+        nota: 9.8
+    },
+    {
+        nome: "Diego",
+        nota: 10
+    },
+    {
+        nome: "Fulano",
+        nota: 2
+    }
+
+]
+
 // criando objeto - é uma colecao de atributos
-const aluno01 = {
-    nome: "kaique",
-    nota: 9.8
-}
+// const aluno01 = {
+//     nome: "kaique",
+//     nota: 9.8
+// }
 
-const aluno02 = {
-    nome: "Diego",
-    nota: 10
-}
+// const aluno02 = {
+//     nome: "Diego",
+//     nota: 10
+// }
 
-const aluno03 = {
-    nome: "Fulano",
-    nota: 2
-}
+// const aluno03 = {
+//     nome: "Fulano",
+//     nota: 2
+// }
 
-console.log(aluno01)
+const nomesDeAlunos = ["Kaique", "Diego", "Fulano"]
+
+console.log(alunos[1])
 
 
 
-const media = (aluno01.nota + aluno02.nota + aluno03.nota) / 3;
+const media = (alunos[0].nota + alunos[1].nota + alunos[2].nota) / 3;
 
 // Se a média for maior que 5, parabenizar a turma
 if (media > 5) {
