@@ -31,7 +31,7 @@ if (sexo == 'M') {
 
 
 
-// versao criada por mim 
+// versao antiga
 
 // if (sexo == 'M' && contribuicao >= 35 && idade + contribuicao >= 95) {
 //     if (sexo == 'F' && contribuicao >=30 && idade + contribuicao >= 90) {
